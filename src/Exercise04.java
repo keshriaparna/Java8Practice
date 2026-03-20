@@ -8,7 +8,7 @@ void main(){
     "I am learning Streams API in Java"
         ↓ split(" ") and Array.Stream - Splits the string by space into a String array
     ["I", "am", "learning", "Streams", "API", "in", "Java"]
-        ↓ Arrays.Stream-Converts String array into Stream<String>
+        ↓ Arrays.stream-Converts String array into Stream<String>
      Stream → "I", "am", "learning", "Streams", "API", "in", "Java"
         ↓ map(x -> x.length()) Converts each word → its length, giving Stream<Integer>
     [1, 2, 8, 7, 3, 2, 4]

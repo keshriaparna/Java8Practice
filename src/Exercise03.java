@@ -10,7 +10,7 @@ void main(){
     sorted() - sorting it based on the length of the strings
     as we are using Comparator we will have reverse().
     So, using reverse method to reverse the sorted stream of strings
-    skiping first value an dthen finding first to get the second value
+    skipping first value and then finding first to get the second value
     of highest length, doing .get() because these operations were returning optional
      */
     String s = "I am learning Streams API in Java";
