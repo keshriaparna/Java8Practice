@@ -5,7 +5,7 @@ Output : Streams
  */
 void main(){
     /*
-    Arrays.stream(s.split(" ")) - this will first convert string array and then arrays.stream
+    Arrays.stream(s.split(" ")) - this will first convert it to string array and then arrays.stream
     will convert string array into Stream<String>
     sorted() - sorting it based on the length of the strings
     as we are using Comparator we will have reverse().
